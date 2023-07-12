@@ -3,18 +3,21 @@
 // ####################################
 
 function conversation() {
-  alert('Welcome to my conversation program.')
+  alert("Welcome to my conversation program.")
 
-  alert('Do you like cycling? Answer yes or no.')
-  let answer = prompt()
+  let answer = prompt("Do you like spiderman? Answer yes or no.")
 
-  if (answer == 'yes') {
-    alert("That's good - you will get very fit.")
+  if (answer == "yes") {
+    let spiderman = prompt("That's good - do you know who spiderman is?")
+    if (spiderman == "yes") alert("dam how'd you know my secret")
+    else {
+      alert("It's me")
+    }
   } else {
-    alert('Perhaps you like some other sport.')
+    alert("LAME.")
   }
 
-  alert('Goodbye')
+  alert("cya")
 }
 
 function age() {
