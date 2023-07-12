@@ -21,5 +21,29 @@ function conversation() {
 }
 
 function age() {
-  // write your code here
+  let theirName = prompt ("What's your name?")
+  let Age = prompt ('How old are you?')
+  Age = Number(Age)
+  
+  if (Age>65) {
+    alert ('You can retire')
+  }
+  else if(Age<5){
+    alert ('You need supervision when using a computer')
+  }
+  else if(Age>=18) {
+    alert ('You can vote')
+  }
+  else if(Age!=15) {
+    alert ('You are not the same age as me')
+  }
+  alert ('Hope you learnt something today ' + theirName)
+ 
+
+
+
+
+
+
+
 }
